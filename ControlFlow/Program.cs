@@ -25,7 +25,7 @@ namespace ControlFlow
             // IterationStatements.Exercise2();
             // IterationStatements.Exercise3();
             // IterationStatements.Exercise4();
-            // IterationStatements.Exercise5();
+             IterationStatements.Exercise5();
         }
     }
 }
