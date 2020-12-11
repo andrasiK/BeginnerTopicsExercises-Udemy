@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{122BACAB-53AE-4F07-9FFB-A4EFC52B96C1}</ProjectGuid>
+    <ProjectGuid>{BE99BBB0-D6E3-4E75-ABC4-EB182EE19328}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>B</RootNamespace>
-    <AssemblyName>B</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>Strings</RootNamespace>
+    <AssemblyName>Strings</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strings\Strings.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
