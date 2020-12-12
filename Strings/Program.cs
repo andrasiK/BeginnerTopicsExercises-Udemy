@@ -17,9 +17,9 @@ namespace Strings
 
             // Strings.Exercise1();
             // Strings.Exercise2();
-             Strings.Exercise3();
+            // Strings.Exercise3();
             // Strings.Exercise4();
-            // Strings.Exercise5();
+             Strings.Exercise5();
         }
     }
 }

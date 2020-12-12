@@ -147,31 +147,31 @@ namespace Strings
         }
 
         
-  //      public static void Exercise4()
-  //      {
-            //******************************************************************************************************//
-            // Write a program and ask the user to enter a few words separated by a space. Use the words to create  //
-            // a variable name with PascalCase. Make sure that the program is not dependent on the input.           //
-            // So if the user enters "NUMBER OF STUDENTS", the program should still display "NumberOfStudents"      //
-            //******************************************************************************************************//
-/*
+        public static void Exercise4()
+        {
+        //******************************************************************************************************//
+        // Write a program and ask the user to enter a few words separated by a space. Use the words to create  //
+        // a variable name with PascalCase. Make sure that the program is not dependent on the input.           //
+        // So if the user enters "NUMBER OF STUDENTS", the program should still display "NumberOfStudents"      //
+        //******************************************************************************************************//
+
             List<int> pascalPlace = new List<int>();
 
             Console.WriteLine("Please enter a few words separated by space: ");
             string input = Console.ReadLine().ToLower();
             char[] charInput = input.ToCharArray();
-            charInput[0] = Char.ToUpper(charInput[0]);
+            charInput[0] = char.ToUpper(charInput[0]);
 
             for (int i = 0; i < charInput.Length; i++)
             {
-                if (Char.IsWhiteSpace(charInput[i]))
+                if (char.IsWhiteSpace(charInput[i]))
                 {
-                    charInput[i + 1] = Char.ToUpper(charInput[i + 1]);
+                    charInput[i + 1] = char.ToUpper(charInput[i + 1]);
                 }
             }
 
             string toBeTrimmed = new string(charInput);
-            string trimmed = string.Concat(toBeTrimmed.Where(c => !Char.IsWhiteSpace(c)));
+            string trimmed = string.Concat(toBeTrimmed.Where(c => !char.IsWhiteSpace(c)));
 
 
             Console.WriteLine();
@@ -180,21 +180,21 @@ namespace Strings
             Console.ReadLine();
         }
 
-        */
-   //     public static void Exercise5()
-   //     {
-            //****************************************************************************************************************//
-            // Write a program and ask the user to enter an English word. Count the number of vowels (a,e,o,u,i) in the word. //
-            //****************************************************************************************************************//
+        
+        public static void Exercise5()
+        {
+         //****************************************************************************************************************//
+         // Write a program and ask the user to enter an English word. Count the number of vowels (a,e,o,u,i) in the word. //
+         //****************************************************************************************************************//
 
             // an array as a list item...
-     /*       var vowels = new List<char>(new char[] { 'a', 'e', 'o', 'u', 'i' });
+            var vowels = new List<char>(new char[] { 'a', 'e', 'o', 'u', 'i' });
             int counter = 0;
 
             Console.WriteLine("Please enter an English word: ");
-            string word = Console.ReadLine();
-            string lowerWord = word.ToLower();
-            char[] wordArray = word.ToCharArray();
+            string inputString = Console.ReadLine();
+            string lowerInputString = inputString.ToLower();
+            char[] wordArray = lowerInputString.ToCharArray();
 
             // search in vowels for characters from wordArray!
             foreach (char c in wordArray)
@@ -206,10 +206,10 @@ namespace Strings
             }
             Console.WriteLine();
             Console.WriteLine("----------------------------------------------------------");
-            Console.WriteLine("The word '{0}' contains {1} vowels", word, counter);
+            Console.WriteLine("The word '{0}' contains {1} vowels", inputString, counter);
             Console.ReadLine();
 
         }
-     */
+     
     }
 }
