@@ -4,22 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Strings
+namespace WorkWithFiles
 {
     class Program
     {
         static void Main(string[] args)
         {
-
             //****************************//
-            //     Working with Text      //
+            //     Working with Files     //
             //****************************//
 
-            // Strings.Exercise1();
-            // Strings.Exercise2();
-            // Strings.Exercise3();
-            // Strings.Exercise4();
-            // Strings.Exercise5();
+            // WorkWithFiles.Exercise1();
+            // WorkWithFiles.Exercise2();
+             WorkWithFiles.Exercise3();
 
         }
     }
